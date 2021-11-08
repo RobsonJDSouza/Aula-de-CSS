@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV e Span</title>
+    <style>
+        body {
+            font-size: 17px;
+            font-family: arial;
+        }
+        #topo {
+            background: rgb(6, 6, 128);
+            color: white;
+                    }
+        #conteudo {
+            background: burlywood;
+            color: white;
+            }
+        #rodape {
+            background: yellow;
+        }    
+        .produto {
+            background:gray;
+            margin: 10px;
+        }
+        #teste {
+            background:rgb(241, 21, 168);
+           
+        }
+    </style>
+
+</head>
+<body>
+
+    <!--Div elemento tipo block. Pega a tela 100%-->
+    <!--Span elemento tipo inline. Formarta frase ou apenas a tag-->
+
+    <div id="topo">
+        <img src="../imagem/olist_fundo_azul.png" alt="Logo Olist" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    
+    <div id="conteudo">
+        <div class="produto">Conteúdo 1</div>
+        <div class="produto">Conteúdo 2</div>
+        <div class="produto">Conteúdo 3</div>
+    </div>
+
+    <div id="rodape">
+        <div>Rodapé</div>
+    </div>
+
+    <span id="teste">
+                 teste
+    </span>
+
+</body>
+</html>

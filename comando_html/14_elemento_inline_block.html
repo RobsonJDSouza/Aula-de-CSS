@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento inline, block e inline-block</title>
+    <style>
+        h2{
+            border: solid 3px red;
+        }
+        #inline1{
+            border: solid 3px red;
+            display: inline;/*TRANSFORMANDO UM ELEMENTO BLOCK EM INLINE*/
+        }
+        /*###################################################################*/
+        span{
+            border: solid 3px blue;
+        }
+        #block1{
+            border: solid 3px blue; 
+            display: block; /*TRANSFORMANDO UM ELEMENTO INLINE EM BLOCK */
+        }
+        /*###################################################################*/
+        #inlineblock1{
+            border: solid 3px blue; 
+            display: inline-block; /*TRANSFORMANDO UM ELEMENTO INLINE/BLOCK PARA INLINE-BLOCK */
+        }
+
+    </style>
+</head>
+<body>
+    <h2>A tag h2 é um elemento em block, pois ele pega toda área da página</h2>
+    <h2 id="inline1">Transformando um elemento block em inline</h2>
+
+    <span>Span é um elemento inline</span>
+    <span id="block1">Transformando o elemento inline em block</span>
+
+    <h2 id="inlineblock1">A tag h2 é um elemento em block, pois ele pega toda área da página Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, dicta ab. Non suscipit hic reiciendis sequi voluptate, quod soluta recusandae tenetur est necessitatibus labore perferendis delectus sunt fuga, voluptates quidem.</h2>
+    <h2 id="inlineblock1">Transformando um elemento block em inline</h2>
+    
+</body>
+</html>
